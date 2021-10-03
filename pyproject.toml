@@ -17,6 +17,7 @@ authors = ["Naveen Anil <big-o-test@nvn-nil.in>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+big-O = "^0.10.1"
 
 [tool.poetry.dev-dependencies]
 flit = "^3.3.0"
