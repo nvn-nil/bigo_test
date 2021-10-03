@@ -11,7 +11,7 @@ dynamic = ["version", "description"]
 
 [tool.poetry]
 name = "big_o_test"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Naveen Anil <big-o-test@nvn-nil.in>"]
 
