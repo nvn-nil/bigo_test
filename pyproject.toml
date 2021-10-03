@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "big_o_test"
+name = "bigo_test"
 authors = [{name = "Naveen Anil", email = "big-o-test@nvn-nil.in"}]
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
