@@ -30,9 +30,9 @@ def assertBigO(
     if timer_options is None:
         timer_options = {}
     timer_options = {
-        "minimum_n": timer_options.get("minimum_n", 1),
-        "maximum_n": timer_options.get("maximum_n", 10),
-        "n_count": timer_options.get("n_count", 10),
+        "minimum_n": timer_options.get("minimum_n", 1000),
+        "maximum_n": timer_options.get("maximum_n", 100000),
+        "n_count": timer_options.get("n_count", 100),
         "repeat_count": timer_options.get("repeat_count", 1),
         "num_times": timer_options.get("num_times", 1),
     }
